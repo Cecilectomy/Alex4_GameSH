@@ -1,0 +1,29 @@
+# Alex4_GameSH
+Alex The Alligator 4 (Alex4) working on the GameShell
+
+## Installing
+
+```
+mkdir -p ~/apps/Menu/Alex4
+cd ~/apps/Menu/Alex4
+wget https://github.com/Cecilectomy/Alex4_GameSH/archive/master.zip -O Alex4.zip
+unzip master.zip
+```
+
+## Running
+
+The first time you run the launch script, it will check if alex4 has been installed and install it if it has not (This may cause the "Loading" screen to appear for several minutes. This also requires an internet connection). It will then check for the alex4.ini file and create it with the appropriate graphics settings for the gameshell if it does not exist. If for some reason you have already installed alex4 and already have an alex4.ini, you will have to manually edit your alex4.ini
+
+Make sure the ~/.alex4/alex4.ini contains the following
+```
+[graphics]
+fullscreen=1
+f_width=320
+f_height=240
+```
+
+## Remapping Keys
+
+The launch script uses xmodmap to save the current keyboard mapping and remap the A and B keys to Control and Alt so the game can be played. When quitting the game, the script will remap back to the original keyboard mappings. If the game crashed or something, you may have to reboot or connect to the gameshell and remap the keyboard using the saved pre.keymap file the script creates.
+
+`xmodmap ~/apps/Menu/Alex4/pre.keymap`
