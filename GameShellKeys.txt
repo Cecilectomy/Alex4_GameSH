@@ -1,0 +1,27 @@
+|-----------------------------------------------------|
+|             GameShell KeyCode Reference             |
+|-----------------------------------------------------|
+| XBOX   | SNES   | Code / Shift | Key / Shift        |
+|--------|--------|--------------|--------------------|
+| Menu   | --     |  9 / 22      | Escape / Backspace |
+| Shift  | --     | -- / --      | -- / --            |
+| Select | --     | 65 / 82      | space / KP_Subtract|
+| Start  | --     | 36 / 86      | Return / KP_Add    |
+| Left   | --     | 113 / --     | Left / --          |
+| Right  | --     | 114 / --     | Right / --         |
+| Up     | --     | 111 / --     | Up / --            |
+| Down   | --     | 116 / --     | Down / --          |
+| X      | Y      | 30 / 29      | u / y              |
+| Y      | X      | 31 / 32      | i / o              |
+| A      | B      | 44 / 43      | j / h              |
+| B      | A      | 45 / 46      | k / l              |
+| LK1    | --     | 43 / 110     | h / Home           |
+| LK2    | --     | 29 / 112     | y / Prior          |
+| LK3    | --     | -- / --      | -- / --            |
+| LK4    | --     | 32 / 117     | o / Next           |
+| LK5    | --     | 46 / 115     | l / End            |
+|-----------------------------------------------------|
+| NOTE: Shift and LK3 are both "Shift" keys           |
+|-----------------------------------------------------|
+
+http://wiki.linuxquestions.org/wiki/List_of_Keysyms_Recognised_by_Xmodmap
