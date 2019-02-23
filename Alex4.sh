@@ -12,22 +12,15 @@ if [[ ! -f ~/.alex4/alex4.ini ]]; then
     mkdir -p ~/.alex4
     printf "[graphics]\nfullscreen = 1\nf_width = 320\nf_height = 240\n" > ~/.alex4/alex4.ini
 fi
-# NOTE: If you for some reason already have an alex4.ini and it does not have the correct settings, manually put them
-# [graphics]
-# fullscreen = 1
-# f_width = 320
-# f_height = 240
-
-# Save current xmodmap keymappings
-xmodmap -pke > pre.keymap
+# TODO: Check settings automatically and update if necessary
 
 # Remap A and B keys
-xmodmap -e "keycode 44 = Control_L"
-xmodmap -e "keycode 45 = Alt_L"
+xmodmap -e "keysym j = Control_L"
+xmodmap -e "keysym k = Alt_L"
 
 # Run Game
 alex4
 
 # Restore xmodmap keymappings.
-# NOTE: Reboot if keymappings fail to restore due to crash, etc.
-xmodmap pre.keymap
+# NOTE: Reboot or run this command manually if keymappings fail to restore due to crash, etc.
+setxkbmap
