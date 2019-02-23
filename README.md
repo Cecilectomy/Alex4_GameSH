@@ -26,6 +26,6 @@ f_height=240
 
 ## Remapping Keys
 
-The launch script uses xmodmap to save the current keyboard mapping and remap the A and B keys to Control and Alt so the game can be played. When quitting the game, the script will remap back to the original keyboard mappings. If the game crashed or something, you may have to reboot or connect to the gameshell and remap the keyboard using the saved pre.keymap file the script creates.
+The launch script uses xmodmap to remap the A and B keys to Control and Alt so the game can be played. When quitting the game, the script will remap back to the original keyboard mappings. If the game crashed or something, you may have to reboot or connect to the gameshell and reset keyboard.
 
-`xmodmap ~/apps/Menu/Alex4/pre.keymap`
+`setxkbmap`
