@@ -7,7 +7,7 @@ Alex The Alligator 4 (Alex4) working on the GameShell
 mkdir -p ~/apps/Menu/Alex4
 cd ~/apps/Menu/Alex4
 wget https://github.com/Cecilectomy/Alex4_GameSH/archive/master.zip -O Alex4.zip
-unzip -j master.zip
+unzip -j Alex4.zip
 ```
 
 Obviously, you can also move to anywhere in `~/apps/Menu` or `~/launcher/Menu/GameShell` including subdirectories and/or using `##_` prefix for better organization. Example: `~/launcher/Menu/GameShell/20_Indie/10_Alex4`.
