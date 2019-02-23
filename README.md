@@ -7,7 +7,7 @@ Alex The Alligator 4 (Alex4) working on the GameShell
 mkdir -p ~/apps/Menu/Alex4
 cd ~/apps/Menu/Alex4
 wget https://github.com/Cecilectomy/Alex4_GameSH/archive/master.zip -O Alex4.zip
-unzip master.zip
+unzip -j master.zip
 ```
 
 ## Running
